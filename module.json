@@ -1,0 +1,17 @@
+{
+    "key": "pgl/core",
+    "name": "Pagelyne Platform Core",
+    "version": "1.0.0",
+    "type": "core",
+    "depends_on_modules": [],
+    "providers": [
+        "Pgl\\Core\\PglCoreServiceProvider"
+    ],
+    "routes": [
+        "routes/api.php"
+    ],
+    "migrations": [
+        "database/migrations/create_pgl_settings_table.php.stub"
+    ],
+    "enabled_by_default": true
+}

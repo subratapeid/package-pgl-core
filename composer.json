@@ -1,0 +1,29 @@
+{
+    "name": "pgl/core",
+    "description": "Pagelyne platform core package.",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.2",
+        "illuminate/contracts": "^12.0",
+        "illuminate/database": "^12.0",
+        "illuminate/http": "^12.0",
+        "illuminate/routing": "^12.0",
+        "illuminate/support": "^12.0",
+        "illuminate/view": "^12.0",
+        "spatie/laravel-medialibrary": "^11.21",
+        "spatie/laravel-package-tools": "^1.92"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pgl\\Core\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pgl\\Core\\PglCoreServiceProvider"
+            ]
+        }
+    }
+}
