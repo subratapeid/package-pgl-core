@@ -22,8 +22,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Pgl\\Core\\PglCoreServiceProvider"
+                "Pgl\\\\Core\\\\PglCoreServiceProvider"
             ]
+        },
+        "branch-alias": {
+            "dev-main": "1.x-dev"
         }
     }
 }
